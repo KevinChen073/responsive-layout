@@ -1,0 +1,71 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  background-image: url(../assert/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+hgroup {
+  color: white; }
+
+.break, article, section {
+  padding: 3%; }
+
+section ul li {
+  display: block;
+  border-bottom: 1px solid; }
+
+aside {
+  margin-bottom: 10px; }
+
+nav {
+  background-color: grey;
+  padding: 10px 10px;
+  border: 0px;
+    border-radius: 10px; }
+  nav ul {
+    list-style: none;
+    display: inline; }
+    nav ul li {
+      display: inline;
+      margin: 0 10px; }
+      nav ul li a:link {
+        color: white;
+        font: bold;
+        text-decoration: none; }
+
+.white-bg, #content, #sidebar, #filter {
+  background-color: white;
+  border: 1px solid;
+    border-radius: 10px; }
+
+#content-img {
+  background-image: url(../assert/oneRepublic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 500px; }
+
+#search-form {
+  display: inline;
+  float: right; }
+
+#pagewrap {
+  width: 980px;
+  margin: 0 auto; }
+
+#header {
+  height: 160px; }
+
+#content {
+  width: 600px;
+  float: left; }
+
+#sidebar, #filter {
+  width: 280px;
+  float: right; }
+
+#footer {
+  clear: both;
+  color: white; }
